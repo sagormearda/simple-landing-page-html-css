@@ -1,0 +1,459 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background-color: tomato; */
+}
+
+.container {
+    width: 100%;
+    /* margin: auto; */
+    height: 500px;
+    /* background-color: gray; */
+}
+
+.top-header {
+    height: 100px;
+    width: 100%;
+    background-color: pink;
+}
+
+.logo {
+    height: 100%;
+    width: 15%;
+    /* background-color: red; */
+    float: left;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.menu-bar {
+    width: 85%;
+    height: 50%;
+    /* background-color: red; */
+    float: left;
+    text-align: right;
+    padding-top: 30px;
+}
+
+.menu-bar a {
+    margin-right: 20px;
+    padding: 15px 20px;
+    /* background-color: white; */
+    border-radius: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.menu-bar a:hover {
+    background-color: aqua;
+    color: black;
+    font-style: italic;
+}
+
+.btm-header {
+    background-image: url(./pexels-photo-459335.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    opacity: .9;
+    height: 400px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.text {
+    height: 300px;
+    width: 40%;
+    /* background-color: white; */
+    padding-top: 70px;
+    float: left;
+    padding-left: 50px;
+}
+
+.text h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.text p {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: rgb(226, 220, 223);
+}
+
+.text a {
+    padding: 20px;
+    background-color: lightpink;
+    margin-left: 200px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: black;
+}
+
+.text a:hover {
+    background-color: aqua;
+    color: black;
+    font-style: italic;
+}
+
+.btm-menu-bar {
+    height: 50px;
+    width: 50%;
+    /* background-color: red;s */
+    align-items: center;
+    float: right;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+.btm-menu-bar a {
+    padding: 20px;
+    /* background-color: skyblue; */
+    border-radius: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: black;
+    float: right;
+    margin-left: 15px;
+}
+
+.btm-menu-bar a:hover {
+    background-color: lightcoral;
+    color: black;
+    font-style: italic;
+}
+
+.main-page {
+    width: 100%;
+    height: 730px;
+    background-color: aqua;
+    /* float: right; */
+}
+
+.main-container {
+    height: 230px;
+    width: 100%;
+    background-color: white;
+    /* padding: 10px 15px; */
+}
+
+.font-1 {
+    height: 100%;
+    /* background-color: rgb(0, 4, 255); */
+    float: left;
+    width: 20%;
+    margin-right: 150px;
+    margin-left: 130px;
+}
+
+.font-1 i {
+    padding-top: 10px;
+    color: rgb(165, 42, 114);
+    margin-left: 130px;
+    font-size: 32px;
+}
+
+.font-1 h2 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.font-1 p {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.font-1 a {
+    padding: 10px;
+    background-color: rgb(165, 42, 104);
+    margin-left: 90px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.font-1 a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.font-2 {
+    height: 100%;
+    /* background-color: rgb(0, 4, 255); */
+    float: left;
+    width: 20%;
+    /* margin-right: 50px; */
+}
+
+.font-2 i {
+    padding-top: 10px;
+    color: rgb(165, 42, 114);
+    font-size: 32px;
+}
+
+.font-2 h2 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.font-1 h2 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.font-1 p {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.font-1 a {
+    padding: 10px;
+    background-color: rgb(165, 42, 104);
+    margin-left: 90px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.font-1 a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.font-2 {
+    height: 100%;
+    /* background-color: rgb(0, 4, 255); */
+    float: left;
+    width: 20%;
+    margin-right: 100px;
+}
+
+.font-2 i {
+    padding-top: 10px;
+    color: rgb(165, 42, 114);
+    margin-left: 120px;
+    font-size: 32px;
+}
+
+.font-2 h2 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.font-2 p {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.font-2 a {
+    padding: 10px;
+    background-color: aqua;
+    margin-left: 90px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.font-2 a:hover {
+    background-color: rgb(165, 42, 104);
+    color: black;
+}
+
+.font-3 {
+    height: 100%;
+    /* background-color: rgb(0, 4, 255); */
+    float: left;
+    width: 20%;
+    margin-right: 100px;
+}
+
+.font-3 i {
+    padding-top: 10px;
+    color: rgb(165, 42, 114);
+    margin-left: 130px;
+    font-size: 32px;
+}
+
+.font-3 h2 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.font-3 p {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.font-3 a {
+    padding: 10px;
+    background-color: lawngreen;
+    margin-left: 90px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.font-3 a:hover {
+    background-color: red;
+    color: white;
+}
+
+.h-1 {
+    height: 200px;
+    width: 100%;
+    background-color: gray;
+}
+
+.jpg {
+    height: 180px;
+    width: 400px;
+    /* background-color: red; */
+    margin: auto;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.h-2 {
+    background-color: lightslategray;
+    height: 300px;
+    width: 100%;
+}
+
+.h-3 {
+    height: 90%;
+    width: 20%;
+    background-color: white;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10%;
+}
+
+.h-3:hover {
+    box-shadow: 0px 0px 7px 5px black;
+    background-color: bisque;
+}
+
+.img1 {
+    height: 50%;
+    width: 100%;
+    padding-top: 0px;
+}
+
+.h10 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.h11 {
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+.h12 {
+    margin-left: 80px;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.h12:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+.main-footer {
+    height: 400px;
+    width: 100%;
+    background-color: teal;
+}
+
+.image-footer {
+    /* background-color: red; */
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+.sagor {
+    height: 100%;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.footer-icon {
+    /* background-color: blue; */
+    height: 100%;
+    width: 60%;
+    padding-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-style: italic;
+    padding-bottom: 40px;
+}
+
+.footer-icon i {
+    margin-left: 100px;
+    font-size: 30px;
+    /* background-color: rgb(163, 85, 85); */
+    margin-bottom: 40px;
+}
+
+.footer-icon i:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+small {
+    padding-left: 100px;
+    text-transform: capitalize;
+    font-style: italic;
+}
